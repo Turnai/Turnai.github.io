@@ -3,15 +3,23 @@
         <title>turnai site</title>
         <link>http://example.org/</link>
         <description>turnai site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 13 Jun 2022 18:17:43 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 08 Jul 2022 09:41:11 &#43;0800</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>1</title>
-    <link>http://example.org/posts/1/</link>
-    <pubDate>Mon, 13 Jun 2022 18:17:43 &#43;0800</pubDate>
+    <title>ubuntu下中文配置和软件的安装</title>
+    <link>http://example.org/posts/linuxconfig/</link>
+    <pubDate>Fri, 08 Jul 2022 09:41:11 &#43;0800</pubDate>
     <author>Turnai</author>
-    <guid>http://example.org/posts/1/</guid>
-    <description><![CDATA[test]]></description>
+    <guid>http://example.org/posts/linuxconfig/</guid>
+    <description><![CDATA[1 中文输入法 1.1 安装字体包 直接从windows偷 1.2 安装ibus sudo apt-get install ibus ibus-setup 1.3 安装拼音 sudo apt-get install ibus-pinyin # 或者 sudo apt-get install ibus-libpinyin 之后在ibus图像化界面加入中文拼音即]]></description>
+</item>
+<item>
+    <title>Linux uninstall</title>
+    <link>http://example.org/posts/linuxuninstall/</link>
+    <pubDate>Fri, 08 Jul 2022 09:32:16 &#43;0800</pubDate>
+    <author>Turnai</author>
+    <guid>http://example.org/posts/linuxuninstall/</guid>
+    <description><![CDATA[<p>Linux卸载干净残余</p>]]></description>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>ubuntu下中文配置和软件的安装 - turnai site</title><meta name="Description" content="最后还是乖乖用回Windows了"><meta property="og:title" content="ubuntu下中文配置和软件的安装" />
+<meta property="og:description" content="最后还是乖乖用回Windows了" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/linuxconfig/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-07-08T09:41:11+08:00" />
+<meta property="article:modified_time" content="2022-07-08T09:41:11+08:00" /><meta property="og:site_name" content="turnai site" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ubuntu下中文配置和软件的安装"/>
+<meta name="twitter:description" content="最后还是乖乖用回Windows了"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/posts/linuxconfig/" /><link rel="prev" href="http://example.org/posts/linuxuninstall/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "ubuntu下中文配置和软件的安装",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/posts\/linuxconfig\/"
+        },"genre": "posts","keywords": "Linux","wordcount":  757 ,
+        "url": "http:\/\/example.org\/posts\/linuxconfig\/","datePublished": "2022-07-08T09:41:11+08:00","dateModified": "2022-07-08T09:41:11+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Turnai"
+            },"description": "最后还是乖乖用回Windows了"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="turnai site">turnai site</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="turnai site">turnai site</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">ubuntu下中文配置和软件的安装</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://github.com/Turnai" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Turnai</a>
+</span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-08">2022-07-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;757 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-中文输入法">1 中文输入法</a>
+      <ul>
+        <li><a href="#11-安装字体包">1.1 安装字体包</a></li>
+        <li><a href="#12-安装ibus">1.2 安装ibus</a></li>
+        <li><a href="#13-安装拼音">1.3 安装拼音</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-clash">2 Clash</a></li>
+    <li><a href="#3-firefox-esr">3 Firefox ESR</a></li>
+    <li><a href="#4-vscode">4 VScode</a></li>
+    <li><a href="#5-qq">5 QQ</a></li>
+    <li><a href="#6-微信">6 微信</a></li>
+    <li><a href="#7-虚拟机">7 虚拟机</a></li>
+    <li><a href="#8-wps">8 WPS</a></li>
+    <li><a href="#9-telegram">9 Telegram</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="1-中文输入法">1 中文输入法</h2>
+<h3 id="11-安装字体包">1.1 安装字体包</h3>
+<p>直接从windows偷</p>
+<h3 id="12-安装ibus">1.2 安装ibus</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo apt-get install ibus
+</span></span><span class="line"><span class="cl">ibus-setup
+</span></span></code></pre></div><h3 id="13-安装拼音">1.3 安装拼音</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo apt-get install ibus-pinyin
+</span></span><span class="line"><span class="cl"><span class="c1"># 或者 sudo apt-get install ibus-libpinyin</span>
+</span></span></code></pre></div><p>之后在ibus图像化界面加入中文拼音即可</p>
+<h2 id="2-clash">2 Clash</h2>
+<p>使用<a href="https://github.com/juewuy/ShellClash" target="_blank" rel="noopener noreffer">shellclash</a>
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">url</span><span class="o">=</span><span class="s1">&#39;https://raw.githubusercontent.com/juewuy/ShellClash/master&#39;</span> <span class="o">&amp;&amp;</span> sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -kfsSl <span class="nv">$url</span>/install.sh<span class="k">)</span><span class="s2">&#34;</span> <span class="o">&amp;&amp;</span> <span class="nb">source</span> /etc/profile <span class="p">&amp;</span>&gt; /dev/null
+</span></span></code></pre></div><p>非root用户安装后请额外执行以下命令以读取环境变量：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">source</span> ~/.bashrc <span class="p">&amp;</span>&gt; /dev/null
+</span></span></code></pre></div><p>安装完成管理脚本后，执行如下命令以运行管理脚本</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">clash
+</span></span></code></pre></div><h2 id="3-firefox-esr">3 Firefox ESR</h2>
+<p>通过添加PPA安装ESR版本</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo add-apt-repository ppa:mozillateam/ppa
+</span></span><span class="line"><span class="cl">sudo apt-get update
+</span></span><span class="line"><span class="cl">sudo apt install firefox-esr
+</span></span></code></pre></div><h2 id="4-vscode">4 VScode</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo apt install code
+</span></span></code></pre></div><p>同步账号时出现错误：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">dbus systemctl error : GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name com.example.Interface was not provided by any .service files
+</span></span></code></pre></div><p>解决方法，下个管账号的包：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo apt install gnome-keyring
+</span></span></code></pre></div><h2 id="5-qq">5 QQ</h2>
+<p>使用<a href="https://github.com/Icalingua-plus-plus/Icalingua-plus-plus" target="_blank" rel="noopener noreffer">第三方QQ</a>
+，但缺点是无法发送文件。</p>
+<p>使用<a href="https://im.qq.com/linuxqq/" target="_blank" rel="noopener noreffer">qq for linux</a>
+，很有上古风味。</p>
+<h2 id="6-微信">6 微信</h2>
+<p>欲尝试<a href="https://www.ubuntukylin.com/applications/106-cn.html" target="_blank" rel="noopener noreffer">优麒麟版本微信</a>
+ ，但是怕<a href="https://www.v2ex.com/t/858659" target="_blank" rel="noopener noreffer">系统信息被修改</a>
+，遂取消。</p>
+<p>尝试<a href="https://spark-app.store/" target="_blank" rel="noopener noreffer">第三方商店</a>
+中的wine-weixin，安装成功，无中文字体。中文字体添加失败，遂卸载。</p>
+<p>最终使用<a href="https://aur.archlinux.org/packages/wechat-uos" target="_blank" rel="noopener noreffer">统信版本微信</a>
+，只能说勉强能用，同样没有托盘。</p>
+<h2 id="7-虚拟机">7 虚拟机</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install -y gcc build-essential
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ~/Downloads
+</span></span><span class="line"><span class="cl">sudo chmod <span class="m">700</span> VMware-Workstation-Full-*.bundle
+</span></span><span class="line"><span class="cl">sudo ./VMware-Workstation-Full-*.bundle
+</span></span></code></pre></div><p>遇到问题：modules编译不能。</p>
+<p>尝试<a href="https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/how-to-install-vmware-workstation-16-pro-on-ubuntu-22-04-ubuntu-20-04.html" target="_blank" rel="noopener noreffer">教程</a>
+</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nv">VMWARE_VERSION</span><span class="o">=</span>workstation-16.2.3
+</span></span><span class="line"><span class="cl"><span class="nv">TMP_FOLDER</span><span class="o">=</span>/tmp/patch-vmware
+</span></span><span class="line"><span class="cl">rm -fdr <span class="nv">$TMP_FOLDER</span>
+</span></span><span class="line"><span class="cl">mkdir -p <span class="nv">$TMP_FOLDER</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> <span class="nv">$TMP_FOLDER</span>
+</span></span><span class="line"><span class="cl">sudo apt install git -y
+</span></span><span class="line"><span class="cl">git clone https://github.com/mkubecek/vmware-host-modules.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> <span class="nv">$TMP_FOLDER</span>/vmware-host-modules
+</span></span><span class="line"><span class="cl">git checkout <span class="nv">$VMWARE_VERSION</span>
+</span></span><span class="line"><span class="cl">git fetch
+</span></span><span class="line"><span class="cl">make
+</span></span><span class="line"><span class="cl">sudo make install
+</span></span><span class="line"><span class="cl">sudo rm /usr/lib/vmware/lib/libz.so.1/libz.so.1
+</span></span><span class="line"><span class="cl">sudo ln -s /lib/x86_64-linux-gnu/libz.so.1 /usr/lib/vmware/lib/libz.so.1/libz.so.1
+</span></span></code></pre></div><p>VMware启动成功，但运行失败。
+继续上述教程：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo apt install -y openssl
+</span></span><span class="line"><span class="cl">sudo mkdir -p /misc/sign-vmware-modules
+</span></span><span class="line"><span class="cl">sudo chmod <span class="m">777</span> /misc/sign-vmware-modules
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /misc/sign-vmware-modules
+</span></span><span class="line"><span class="cl">openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days <span class="m">36500</span> -subj <span class="s2">&#34;/CN=MSI/&#34;</span>
+</span></span><span class="line"><span class="cl">chmod <span class="m">600</span> MOK.priv
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">sudo mokutil --import MOK.der
+</span></span></code></pre></div><p>新建脚本<code>/misc/sign-vmware-modules/signingscript</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">for</span> modfile in <span class="k">$(</span>modinfo -n vmmon vmnet<span class="k">)</span><span class="p">;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Signing </span><span class="nv">$modfile</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">/usr/src/linux-headers-<span class="k">$(</span>uname -r<span class="k">)</span>/scripts/sign-file sha256 <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>/misc/sign-vmware-modules/MOK.priv <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span>/misc/sign-vmware-modules/MOK.der <span class="s2">&#34;</span><span class="nv">$modfile</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">done</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">chmod <span class="m">700</span> /misc/sign-vmware-modules/signingscript
+</span></span><span class="line"><span class="cl">sudo /misc/sign-vmware-modules/signingscript
+</span></span></code></pre></div><p>重启系统，但无法进入MOK management。已破防^^。</p>
+<h2 id="8-wps">8 WPS</h2>
+<p>Libre Office处理不好Word的各种字体和格式，无奈只能用WPS，WPS用了<a href="https://snapcraft.io/wps-2019-snap" target="_blank" rel="noopener noreffer">WPS Office 2019 - Multi-Language</a>
+——它说没联网，能勉强用用吗？</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">snap interfaces  <span class="p">|</span> grep -v <span class="s2">&#34;.*-</span>$<span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">sudo snap connect wps-2019-snap:cups-control :cups-control
+</span></span><span class="line"><span class="cl">sudo snap connect wps-2019-snap:alsa :alsa
+</span></span><span class="line"><span class="cl">sudo snap connect wps-2019-snap:pulseaudio :pulseaudio
+</span></span><span class="line"><span class="cl">sudo snap connect wps-2019-snap:removable-media :removable-media
+</span></span></code></pre></div><h2 id="9-telegram">9 Telegram</h2>
+<p>Telegram无法访问外接硬盘，最后参考上面WPS用snap connections连上removable-media解决了。</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2022-07-08</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://example.org/posts/linuxconfig/" data-title="ubuntu下中文配置和软件的安装" data-hashtags="Linux"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://example.org/posts/linuxconfig/" data-hashtag="Linux"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://example.org/posts/linuxconfig/" data-title="ubuntu下中文配置和软件的安装"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://example.org/posts/linuxconfig/" data-title="ubuntu下中文配置和软件的安装"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@6.20.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://example.org/posts/linuxconfig/" data-title="ubuntu下中文配置和软件的安装"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/linux/">Linux</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/linuxuninstall/" class="prev" rel="prev" title="Linux uninstall"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Linux uninstall</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.101.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://github.com/Turnai" target="_blank">Turnai</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
